@@ -11,7 +11,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | Title | Description |
 | :--- | :--- | 
 | Separate drive | You do not want the system drive to run out of free space, so make sure the website, logging (both IIS and Umbraco), Umbraco media folder, search index, caching etc are stored on a separate drive  |
-| Backup and monitoring | Ensure that both  web server and SQL Server are constantly monitored and backed up regulary |
+| Backup and monitoring | Ensure that both  web server and SQL Server are constantly monitored and regularly backed up  |
 
 ## Code
 
