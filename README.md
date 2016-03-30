@@ -55,7 +55,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | Search | Test some search queries |
 | Access to backoffice | Do you want to expose the ".../Umbraco" URL to everyone or limit it to your local network? [Check out this blog post to restrict access to backend by IP address](http://staheri.com/my-blog/2014/may/restrict-umbraco-cms-by-ip-address/) |
 | Forms | Using Umbraco Forms? Make sure it's the correct license and try to submit a test form |
-| Cold boot | Delete cache and search index. Restart site. [Republish site] (https://our.umbraco.org/wiki/reference/api-cheatsheet/publishing-and-republishing/)  |
+| Cold boot | Delete cache and search index. Restart site. [Republish site] (https://our.umbraco.org/wiki/reference/api-cheatsheet/publishing-and-republishing/) Reindex  |
 
 ## SEO
 
