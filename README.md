@@ -1,7 +1,5 @@
 # Umbraco Deployment Checklist
 
-IN PROGRESS
-
 Inspired by [Alexander Haneng's](https://twitter.com/ahaneng) (a former colleague) [deployment checklist for EPiServer](http://world.episerver.com/blogs/Alexander-Haneng/Dates/2011/9/EPiServer-CMS-Checklist-Deployment-Checklist/), I wanted to create one for [Umbraco](http://umbraco.com/). Mainly as a reminder to myself and hopefully the list can get some additions from the community. 
 Most of the points are not specific to Umbraco, but general to all ASP.NET MVC deployments.
 The list is not sorted or prioritized in any particular way, but I have grouped the items in a way that seems logical to me.
