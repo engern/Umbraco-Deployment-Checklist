@@ -19,7 +19,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | :--- | :--- | 
 | Release mode | All DLL's in production environments should be built in Release mode |
 | Minified CSS and JS | If possible, all JavaScript and CSS files should be bundled and minified. I use [Mindscape Web Workbench](http://www.mindscapehq.com/products/web-workbench) but there are loads of options |
-| Remove debug stuff | Search through your entire project for lines that are used for testing/debug and remove the ones that will display in your html, css or javascript. "console.log", "todo", "lorem ipsum", "test" etc.  |
+| Remove debug stuff | Search through your entire project for lines that you usually use for testing/debug and remove the ones that will display in your html, css or javascript. "console.log", "todo", "lorem ipsum", "test" etc.  |
 | Google Analytics | If you use Google Analytics, make sure the tracking code is correct  |
 | Caching | Make sure the code leverages caching offered by the framework. Look [here](http://stefantsov.com/umbraco-7-mvc-performance/) and [here](http://www.abstractmethod.co.uk/blog/2015/8/optimize-your-mvc-umbraco-site/) |
 
