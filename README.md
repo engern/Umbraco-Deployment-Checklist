@@ -68,3 +68,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | Alt text | Images have alt text? |
 | Broken links | Check site for broken links. I Use [LinkChecker](https://wummel.github.io/linkchecker/) | 
 | Favicon | Add favicon |
+
+## Load balancing
+
+TODO!
