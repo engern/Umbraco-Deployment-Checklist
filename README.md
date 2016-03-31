@@ -55,6 +55,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | Scheduled tasks | Verify that schedule tasks are running |
 | Search | Test some search queries |
 | Access to backoffice | Do you want to expose the ".../Umbraco" URL to everyone or limit it to your local network? [Check out this blog post to restrict access to backend by IP address](http://staheri.com/my-blog/2014/may/restrict-umbraco-cms-by-ip-address/) |
+| Redirect old URLs | Are you replacing an old site with new URLs? Go through analytics data and set up 301 redirects for the most popular pages. The [301 URL Tracker](https://our.umbraco.org/projects/developer-tools/301-url-tracker/) makes it easy, and is planned implemeted in the core for [7.5.0](https://our.umbraco.org/contribute/releases/750) |
 | Forms | Using Umbraco Forms? Make sure it's the correct license and try to submit a test form |
 | Cold boot | Delete cache and search index. Restart site. [Republish site] (https://our.umbraco.org/wiki/reference/api-cheatsheet/publishing-and-republishing/) Reindex  |
 
