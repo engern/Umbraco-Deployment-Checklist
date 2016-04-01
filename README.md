@@ -27,7 +27,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | :--- | :--- | 
 | Debug = false | Seems like the most obvious thing in the world, but I still stumble upon sites with compilation debug set to true in production environments  |
 | Force WWW | To keep consistent URLs on my site, I like to force my website to be visited with the WWW prefix. One way to ensure this is using a simple [URL rewrite rule](http://stackoverflow.com/questions/10153670/microsoft-rewriting-module-force-www-on-url-or-remove-www-from-url)
-| Verify all paths | Search for ":\" and "\\" in all config files and check that all paths are correct  |
+| Verify all paths | Search for ":\" and "\\\\" in all config files and check that all paths are correct  |
 | Verify appsettings and connectionstring | make sure they have the correct values for production environment |
 | Encrypt connectionstrings | Don't keep connectionstrings in plaintext in the [demilitarized zone](https://en.wikipedia.org/wiki/DMZ_(computing)). [Separate the connectionstring section] (http://stackoverflow.com/questions/6582970/separate-connectionstrings-and-mailsettings-from-web-config-possible) and [encrypt it on the web server](http://www.codeproject.com/Tips/795135/Encrypt-ConnectionString-in-Web-Config) (Remember: You cannot encrypt the file on one server and transfer it to another. You must copy the file in plaintext and do the encryption on each server) |
 | Security headers | Analyze security headers at  [Securityheaders.io](https://securityheaders.io/) and add the missing ones |
