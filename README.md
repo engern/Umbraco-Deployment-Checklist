@@ -40,6 +40,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | No logging until needed | Turn off logging (both IIS and Umbraco) until needed. (Not everyone will agree, and if you have a low-traffic website you can ignore this part. I usually do like this: Keep logging on for 2 weeks. If everything runs smooth I turn it off until things get shaky) |
 | App pool recycle | Create a separate Application Pool for the site and  [schedule a nightly recycle](https://technet.microsoft.com/nb-no/library/cc754494(v=ws.10).aspx) |
 | Robots.txt | Do you need search engines to ignore parts of your page? |
+| Sitemap.xml | Consider to [include a sitemap.xml](https://support.google.com/webmasters/answer/156184?hl=en) on your site |
 | 404 | Do you handle 404's in a decent way?  |
 | 500 | Do you handle 500's in a decent way? [Custom error page](https://msdn.microsoft.com/en-us/library/h0hfz6fc(v=vs.85).aspx)  |
 | Print.css | Sounds crazy, but some people actually print web pages |
@@ -49,6 +50,8 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | Title | Description |
 | :--- | :--- | 
 | Latest version | Update to latest (stable) version |
+| Disable Version Check | [Set umbracoVersionCheckPeriod = 0] (https://our.umbraco.org/wiki/reference/webconfig) |
+| Silent/Inline macro errors | In the umbracoSettings.config set MacroErrors to inline or silent (if you choose inline, [this PR](https://github.com/umbraco/Umbraco-CMS/pull/921) now makes it possible to change the default error message |
 | Files and images | Verify that files and images can be uploaded to the site |
 | Scheduled tasks | Verify that schedule tasks are running |
 | Search | Test some search queries |
@@ -66,6 +69,8 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | Alt text | Images have alt text? |
 | Broken links | Check site for broken links. I Use [LinkChecker](https://wummel.github.io/linkchecker/) | 
 | Favicon | Add favicon |
+| Google Webmaster Tools | With Google Webmaster tools you can tell google to reindex your site quicker after a release.|
+| Google PageSpeed Insights | [Analyze and try to improve the score for the site](https://developers.google.com/speed/pagespeed/insights/)  |
 
 ## Load balancing
 
