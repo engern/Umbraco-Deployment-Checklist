@@ -66,6 +66,7 @@ The list is not sorted or prioritized in any particular way, but I have grouped 
 | :--- | :--- | 
 | Page titles | One h1 tag on each page? |
 | Meta data | [HTML meta tags](http://www.w3schools.com/tags/tag_meta.asp) |
+| Meta data for facebook | [A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters#markup) |
 | Alt text | Images have alt text? |
 | Broken links | Check site for broken links. I Use [LinkChecker](https://wummel.github.io/linkchecker/) | 
 | Favicon | Add favicon |
